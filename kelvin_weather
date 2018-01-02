@@ -1,0 +1,14 @@
+// forecast today
+const kelvin = prompt('What is the Kelvin temperature today?');
+
+// convert kelvin to celsius
+const celsius = kelvin - 273;
+
+// convert celsius to fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+// rounding fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+
+// print fahrenheit
+console.log(`The temperature is ${fahrenheit} degrees fahrenheit.`);
